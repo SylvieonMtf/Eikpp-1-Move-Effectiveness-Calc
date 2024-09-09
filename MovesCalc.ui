@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Move Effectiveness Calc</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F5A9B8</string>
+  </property>
+  <widget class="QComboBox" name="Type_comboBox">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>25</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>(None)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fighting</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ground</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fairy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Fire</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dark</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Flying</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Electric</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dragon</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ghost</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Poison</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Grass</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Steel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Psychic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bug</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rock</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Water</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="Type_label">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>5</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Move Type</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Super_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>75</y>
+     <width>150</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Super_label">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>55</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Super Effective:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Neutral_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>75</y>
+     <width>150</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Immune_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>375</x>
+     <y>75</y>
+     <width>150</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="Resisted_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>75</y>
+     <width>150</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Neutral_label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>55</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Neutral:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Immune_label">
+   <property name="geometry">
+    <rect>
+     <x>375</x>
+     <y>55</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Immune:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Resisted_label">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>55</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Resisted:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Calculate_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>25</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="text">
+    <string>Calculate</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
